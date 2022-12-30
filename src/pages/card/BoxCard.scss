@@ -1,0 +1,14 @@
+@import "../../scss/Variable.scss";
+
+.box-card-cntnr-xd-xd {
+  background-color: $primary-clr;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(245, 241, 241, 0.15) 0px 2px 8px;
+}

@@ -1,0 +1,31 @@
+@import "../../scss/Variable.scss";
+
+.GymDisplay-container {
+  background-color: rgba(31, 32, 32, 0);
+  width: 75%;
+  margin-left: 20px;
+  overflow-y: scroll;
+  height: 800px;
+
+  /* width */
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $primary-clr;
+    border-radius: 25px;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: lighten($primary-clr, 10%);
+    cursor: pointer;
+  }
+}

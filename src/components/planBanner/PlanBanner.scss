@@ -1,0 +1,72 @@
+@import "../../scss/Variable.scss";
+
+.single-plan-container {
+  background-color: lighten($primary-clr, 90%);
+  margin: 10px 20px;
+  border-radius: 10px;
+  color: $primary-clr;
+  padding: 20px;
+  position: relative;
+  transition-duration: 0.5s;
+  &:hover {
+    transform: scale(1.1);
+    // background-color: goldenrod;
+    z-index: 2;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    // margin-right: 300px;
+    // margin-left: -300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  h2 {
+    // background-color: red;
+    text-align: left;
+    margin: 2px;
+    text-transform: capitalize;
+  }
+
+  .price-pc-xd-prc-it {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    background-color: $primary-clr;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+  }
+
+  .nme-rc-xd-prc {
+    // background-color: orange;
+    display: flex;
+    img {
+      width: 50px;
+      margin-right: 10px;
+    }
+    .h2-h2-xdc {
+      //   background-color: aqua;
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      font-size: 25px;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+
+    .durat-ion-ex-time {
+      display: flex;
+      align-items: center;
+      margin-left: 5px;
+      font-weight: 700;
+      color: darken($primary-clr, 15%);
+    }
+  }
+
+  .txt-desc-grt-de {
+    // background-color: green;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,64 @@
+.search-bar-container {
+  //   background-color: aqua;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  form {
+    display: flex;
+    width: 98%;
+
+    // background-color: blueviolet;
+    input {
+      width: 98%;
+      height: 55px;
+      border-radius: 10px;
+      border: 2px solid white;
+      background-color: black;
+      font-size: 18px;
+      padding-left: 70px;
+      position: relative;
+      outline: none;
+      color: aliceblue;
+    }
+    .searchIcon-class {
+      position: absolute;
+      top: 18px;
+      left: 50px;
+      width: 25px;
+    }
+
+    .location-btn {
+      position: absolute;
+      top: 8px;
+      right: 145px;
+      padding: 8px;
+      height: 45px;
+      width: 50px;
+      background-color: rgb(136, 18, 18);
+      border-radius: 10px;
+      img {
+        width: 25px;
+      }
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+
+    .clr-btn {
+      background-color: rgb(136, 18, 18);
+      font-size: 16px;
+      position: absolute;
+      right: 35px;
+      top: 8px;
+      height: 45px;
+      padding: 12px 30px;
+      border-radius: 10px;
+      color: white;
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.filter-container-flt {
+  //   background-color: rgb(23, 24, 24);
+  padding: 0;
+  margin: 0;
+  width: 25%;
+  margin-right: auto;
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    h3 {
+      font-size: 40px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      margin-top: 0px;
+    }
+
+    .location-inp-cnt {
+      // background-color: red;
+      display: flex;
+      position: relative;
+      input {
+        width: 100%;
+        padding-left: 60px;
+        color: aliceblue;
+      }
+
+      img {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+      }
+    }
+
+    label {
+      margin: 10px 0px;
+      font-size: 20px;
+    }
+
+    input {
+      height: 50px;
+      background-color: rgb(36, 35, 35);
+      border: 2px solid grey;
+      border-radius: 3px;
+      padding-left: 10px;
+      font-size: 20px;
+      outline: none;
+    }
+
+    select {
+      height: 50px;
+      background-color: rgb(36, 35, 35);
+      border: 2px solid grey;
+      border-radius: 3px;
+      padding-left: 10px;
+      font-size: 20px;
+      color: rgb(236, 236, 228);
+      outline: none;
+    }
+
+    .max-min-cntnr-m-m {
+      display: flex;
+      input {
+        width: 100px;
+        outline: none;
+      }
+      .max-min-input-bx {
+        margin-right: 10px;
+      }
+    }
+  }
+}
